@@ -56,7 +56,7 @@ function initPage() {
         $(window).scrollTop(0);
 
         $.ajax({
-            url: 'https://api.github.com/gists/' + '008b49fd6bb056ddf15c6562fb4f0a26',
+            url: 'https://api.github.com/gists/' + 'f00671e91f129283342f6c631d20213a',
             type: 'GET',
             dataType: 'jsonp'
         }).success(function(gistdata) {
